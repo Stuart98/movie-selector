@@ -1,0 +1,66 @@
+.main-header {
+    height: 70px;
+    padding: 15px 20px;
+    background: #000;
+
+    h1 {
+        color: #eee;
+    }
+}
+
+.movie-search-list {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.movie-search-result button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #eee;
+    display: flex;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-image: none;
+    text-align: left;
+    border: 1px solid transparent;
+
+    &:hover {
+        border: 1px solid var(--chakra-colors-blue-500);
+    }
+
+    .wrapper {
+        flex: 1;
+    }
+
+    img {
+        margin: 0 10px 0 0;
+    }
+
+    .title {
+        font-weight: bold;
+    }
+
+
+
+    .overview {
+        font-size: 0.9em;
+        max-height: 40px;
+        display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+    }
+}
+
+.movie-item {
+    h2 {
+        white-space: normal;
+    }
+}
+
+.date {
+    font-size: 0.8em;
+    color: #999;
+}
