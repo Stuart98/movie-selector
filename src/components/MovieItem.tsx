@@ -27,9 +27,9 @@ export default function MovieItem({ movie, onDeleteMovieClick }: Props) {
         <Heading size="sm">
           {movie.title} <Badge colorScheme="purple">{movie.media_type}</Badge>
         </Heading>
-        {movie.release_date && <Text className="date" mb={3}>{movie.release_date.split('-')[0]}</Text>}
+        {movie.release_date && <Text className="date">{movie.release_date.split('-')[0]}</Text>}
         
-        <Flex>
+        <Flex mt={3}>
           {movie.trailer && <Button size="sm" onClick={() => setShowPlayer(true)}>Trailer</Button>}
           <Spacer></Spacer>
           <IconButton ml={5} aria-label='Delete List' icon={<DeleteIcon />} size="sm" onClick={onDeleteMovieClickHandler(movie)} />

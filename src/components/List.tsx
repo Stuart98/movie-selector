@@ -43,7 +43,7 @@ export default function ListComponent({ list, onAddMovieClick, onDeleteMovieClic
 
     <Card key={list.id} mb={10}>
       <CardHeader>
-        <Flex>
+        <Flex alignItems="center">
           <Box>
             <Heading size='md'>
               {list.title}
