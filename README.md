@@ -2,6 +2,8 @@
 
 This is a simple and user-friendly React.js application that allows parents to create shortlists of movies and TV shows for their children to watch. The app allows children to view the cover art and watch trailers for items that may be on different streaming platforms, without being able to see all the other films on offer.
 
+![Movie Shortlister demo](./demo/movie-shortlister.gif)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
