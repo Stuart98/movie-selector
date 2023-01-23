@@ -59,7 +59,7 @@ export default function MovieSearch(props: Props) {
     // tries to fetch a Trailer for the given movie
     const getTrailer = async (movie: Movie): Promise<Trailer> => {
         const API_KEY = '72afa62f9d07c3dcd73afcdbc6b69feb';
-        const url = `http://api.themoviedb.org/3/movie/${movie.id}/videos?api_key=${API_KEY}`;
+        const url = `https://api.themoviedb.org/3/movie/${movie.id}/videos?api_key=${API_KEY}`;
         
         const response = await fetch(url, {
             method: 'GET'
