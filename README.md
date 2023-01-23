@@ -20,13 +20,11 @@ You will need to have Node.js and npm (Node Package Manager) installed on your m
 git clone https://github.com/Stuart98/movie-selector.git
 ```
 
-
 2. Install dependencies
 
 ```
 npm install
 ```
-
 
 3. Start the development server
 
@@ -34,20 +32,19 @@ npm install
 npm start dev
 ```
 
-
 4. Open [http://localhost:5174](http://localhost:5174) to view the app in the browser.
 
 ## Built With
 
-- [React.js](https://reactjs.org/) - The web framework used
-- [Chakra UI](https://chakra-ui.com/) - UI component framework
-- [Vite](https://vitejs.dev/) - Front-end tooling
-- [npm](https://www.npmjs.com/) - Dependency Management
-
+-   [React.js](https://reactjs.org/) - The web framework used
+-   [Chakra UI](https://chakra-ui.com/) - UI component framework
+-   [Vite](https://vitejs.dev/) - Front-end tooling
+-   [npm](https://www.npmjs.com/) - Dependency Management
+-   [The Movie DB](https://www.themoviedb.org/) - Movie and TV Show API
 
 ## Authors
 
-* **Stuart Ashworth** - [www.stuartashworth.com](https://www.stuartashworth.com)
+-   **Stuart Ashworth** - [www.stuartashworth.com](https://www.stuartashworth.com)
 
 ## License
 

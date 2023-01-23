@@ -10,7 +10,7 @@ import MovieItem from './MovieItem';
 import InlineEditor from './InlineEditor';
 
 type Props = {
-  list: List;
+  list: List; // the List to display
   onAddMovieClick: Function | null;
   onDeleteMovieClick: Function | null;
   onDeleteListClick: Function;
@@ -74,7 +74,7 @@ export default function ListComponent({ list, onAddMovieClick, onDeleteMovieClic
           }
         </Box>
 
-        {isEditing && <InlineEditor isOpen={true} title="Edit Title" value={list.title} onSave={onInlineEditorSave} onClose={onInlineEditorClose} />}
+        {isEditing && <InlineEditor isOpen={true} title="Edit Title" initialValue={list.title} onSave={onInlineEditorSave} onClose={onInlineEditorClose} />}
       </CardBody>
     </Card>
   );
